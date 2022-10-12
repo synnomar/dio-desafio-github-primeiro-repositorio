@@ -47,6 +47,32 @@ git status
 # Enviar todos os commits para o repositorio remoto. 
 git push origin main
 
+########################  Trabalhando com Branch  ##################
+
+# Listar as Branch existentes
+git branch
+
+#Renomar branch master para main
+git branch -M main
+
+# Cria uma nova Branch
+git branch nova_branch
+
+# Mudar de branch
+git checkout nova_branch
+
+#Remove uma Branch 
+git branch -d nova_branch
+
+#Juntas duas Branch com Marge
+git merge nova_branch
+
+
+
+
+#Ignora arquivos para não subir no versionamento
+criar o arquivo .gitignore
+
 
 
 
